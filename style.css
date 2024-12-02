@@ -1,0 +1,967 @@
+.header {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(79, 77, 77);
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    margin-top: -40px;
+    margin-left: 5px;
+}
+
+.header ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.header ul {
+    text-align: right;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.header a {
+    color: rgb(227, 237, 237);
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: double;
+    color: orangered;
+    background-color: white;
+    padding: 10px;
+}
+
+.banner {
+    background-image: url(./img/head.jpg);
+    filter: grayscale(30%);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 85vh;
+    padding-top: 30px;
+    padding-left: 40px;
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: start;
+    color: rgb(20, 22, 22);
+}
+
+.banner span {
+
+    text-transform: uppercase;
+    color: rgb(75, 73, 73);
+}
+
+.banner-btn {
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    padding: 20px 40px;
+    font-size: medium;
+
+
+}
+
+.banner-btn:hover {
+    background-color: rgb(74, 72, 72);
+}
+
+.banner h4 {
+    font-style: italic;
+    font-size: x-large;
+    width: 350px;
+}
+
+.banner h1 {
+    width: 400px;
+}
+
+.dreem {
+    background-color: rgb(14, 197, 243);
+    width: 100%;
+    height: 180px;
+    font-size: x-large;
+    font-weight: 400px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dreem span {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.dreem p {
+    width: 250px;
+
+}
+
+.dreem input {
+    width: 600px;
+    height: 55px;
+}
+
+.host1 {
+    padding: 0;
+    text-align: center;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.host1 p {
+    color: rgb(88, 87, 87);
+    margin-top: -20px;
+}
+
+.box {
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid grey;
+    padding: 20px 30px;
+    color: rgb(138, 135, 135);
+
+}
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+
+    padding-top: 50px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-text {
+    width: 50%;
+    margin-left: 30px;
+}
+
+.about-text h3 {
+    font-size: 25px;
+    color: rgb(69, 68, 68);
+}
+
+h3 span {
+    font-size: 40px;
+    color: black;
+}
+
+.about a {
+    text-decoration: none;
+    color: orangered;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.jen {
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 50px;
+}
+
+.p-jen {
+    font-style: italic;
+    margin-left: 140px;
+    margin-top: -80px;
+    width: 300px;
+    font-size: 20px;
+}
+
+.h-jen {
+    margin-left: 130px;
+    margin-top: -10px;
+}
+
+.about-table {
+    border: 1px solid gray;
+    height: 350px;
+    width: 35%;
+    margin-left: 70px;
+    padding: 30px 15px;
+}
+
+.row {
+    padding: 15px;
+}
+
+.row-1 {
+    background-color: rgb(123, 120, 133);
+    width: 375px;
+    padding-left: 10px;
+    color: aliceblue;
+    margin-left: -15px;
+}
+
+.row-1 p {
+    padding-top: 10px;
+}
+
+.row i {
+    padding-right: 10px;
+}
+
+.row-btn {
+    position: absolute;
+    background-color: aliceblue;
+    font-size: medium;
+    font-weight: 200;
+    padding: 10px 25px;
+    margin-left: 150px;
+    margin-top: -80px;
+
+}
+
+.row-btn:hover {
+    color: black;
+    background-color: rgb(215, 226, 226);
+}
+
+.row-1 h2 {
+    padding-bottom: 20px;
+}
+
+.middle {
+    background-color: rgb(235, 243, 240);
+    height: 190vh;
+    width: 100%;
+
+    padding-top: 30px;
+    font-size: larger;
+}
+
+.title-m h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title-m p {
+    text-align: center;
+    font-style: italic;
+    margin-top: -20px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.card1 {
+    width: 250px;
+    height: 300px;
+    border: 1px solid;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.card a {
+    text-decoration: none;
+    color: rgb(46, 175, 219);
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+.header2 {
+    background-image: url(./img/head2.jpg);
+    filter: grayscale(40%);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 90vh;
+}
+
+.about-header {
+    padding: 10px 30px;
+    width: 40%;
+    color: aliceblue;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.row-h {
+    padding-bottom: 20px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.row-h-btn {
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    padding: 10px 40px;
+    font-size: medium;
+}
+
+.row-h-btn:hover {
+    background-color: rgb(74, 72, 72);
+}
+
+.mid-page {
+    background-color: rgb(235, 243, 240);
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+    padding-top: 40px;
+    color: rgb(69, 67, 67);
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.mid-t ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.mid-t ul {
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+.mid-t a {
+    text-decoration: none;
+    color: rgb(98, 95, 95);
+}
+
+.mid-t a:hover {
+    text-decoration: underline;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: large;
+    background-color: rgb(235, 243, 240);
+    height: 120vh;
+    text-align: center;
+}
+
+.info {
+    /* position: relative; */
+    width: 300px;
+    height: 380px;
+    margin: 30px 10px;
+    background-color: white;
+    padding-top: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.under {
+    background-color: rgb(245, 154, 89);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.add {
+    color: rgb(185, 111, 62);
+    border: 1px solid orange;
+    margin-right: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(244, 245, 245);
+
+}
+
+.per {
+    margin-left: 10px;
+    font-size: x-large;
+}
+
+.add:hover {
+    color: azure;
+    background-color: rgb(111, 200, 252);
+}
+
+.end {
+    background-color: rgb(235, 243, 240);
+    text-align: center;
+    padding: 40px;
+    margin-top: 30px;
+    color: rgb(69, 67, 67);
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.ca {
+    position: relative;
+    width: 270px;
+    height: 380px;
+    margin: 20px;
+    background-color: white;
+}
+
+.img-ca:hover {
+    opacity: 1;
+
+}
+
+.img-ca {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    opacity: 0.8;
+}
+
+.date {
+    font-size: medium;
+    padding-left: 90px;
+    text-decoration: none;
+    color: gray;
+}
+
+.date:hover {
+    color: chocolate;
+    text-decoration: underline;
+}
+
+.about-img p {
+    font-style: italic;
+}
+
+.logos {
+    padding: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.img-logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    filter: grayscale(100%);
+
+}
+
+.img-logo:hover {
+    filter: grayscale(0);
+}
+
+.footer {
+    background-color: rgb(51, 50, 50);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.footer2 {
+    background-color: rgb(71, 69, 69);
+    height: 50vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+.quick ul li {
+    display: block;
+    padding-bottom: 15px;
+    padding-right: 20px;
+
+}
+
+.quick a {
+    text-decoration: none;
+    color: azure;
+}
+
+.quick a:hover {
+
+    font-weight: bold;
+}
+
+.quick {
+    padding: 20px;
+}
+
+.connect {
+    padding: 20px;
+}
+
+.connect i {
+    padding-left: 15px;
+}
+
+.sign-up {
+    padding: 20px;
+}
+
+.sign {
+    display: flex;
+    margin-left: 30px;
+}
+
+.sign-btn {
+    background-color: orangered;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.banner2 {
+    background-image: url(./img/head.jpg);
+    filter: grayscale(30%);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+    width: 100vw;
+    padding-top: 120px;
+    padding-left: 50px;
+    font-size: xx-large;
+    color: rgb(75, 79, 83);
+}
+
+.banner2 h1 {
+    margin-bottom: 0;
+
+}
+
+.banner2 a {
+    text-decoration: none;
+    font-size: large;
+    color: rgb(75, 79, 83);
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+.banner2 a:hover {
+    color: orangered;
+}
+
+.blogg {
+    margin-top: 60px;
+    width: 60%;
+    padding-left: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.blogg1 {
+    padding-top: 30px;
+    padding-bottom: 40PX;
+
+}
+
+.blogg1 span {
+    font-size: xx-large;
+    font-weight: bolder;
+    font-weight: bolder;
+    color: rgb(50, 47, 47);
+
+}
+
+.imp {
+    display: inline-flex;
+    margin-top: 20px;
+    border: 1px solid gray;
+    padding: 5px;
+    font-size: small;
+}
+
+.imp a {
+    text-decoration: none;
+    padding-right: 20px;
+    color: rgb(100, 97, 97);
+}
+
+.imp a:hover {
+    color: orangered;
+}
+
+.blogg1 p {
+    font-style: italic;
+    line-height: 20px;
+    font-weight: lighter;
+    padding-bottom: 20px;
+    color: rgb(100, 97, 97);
+}
+
+.par2 {
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(50, 47, 47);
+    margin-bottom: 0;
+
+}
+
+.soon span {
+    margin-top: 0;
+    color: orangered;
+}
+
+.soon {
+    color: rgb(100, 97, 97);
+    margin-top: -40px;
+    padding-left: 30px;
+    width: 60%;
+}
+
+.son {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: large;
+}
+
+.non {
+    padding-left: 30px;
+    color: rgb(50, 47, 47);
+
+}
+
+.non h4 {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.non p {
+    color: rgb(100, 97, 97);
+    font-size: larger;
+    width: 60%;
+}
+
+.tab {
+    width: 60%;
+    background-color: rgb(232, 236, 236);
+    margin-left: 30px;
+    padding: 30px;
+    font-size: larger;
+    color: rgb(100, 97, 97);
+    font-style: italic;
+
+}
+
+.posts {
+    padding: 60px 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(50, 47, 47);
+}
+
+.hos {
+    text-decoration: none;
+    color: #322f2f;
+    font-size: large;
+}
+
+.hos:hover {
+    color: chocolate;
+}
+
+.posts p a {
+    text-decoration: none;
+    color: deepskyblue;
+}
+
+.post1 {
+    padding-bottom: 10px;
+}
+
+.postts {
+    width: 60%;
+    font-size: large;
+    justify-content: space-around;
+    display: flex
+}
+
+.postts a {
+    text-decoration: none;
+    color: deepskyblue;
+}
+
+.posttss {
+    width: 60%;
+    font-size: larger;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+
+.posttss a {
+    text-decoration: none;
+    color: #322f2f;
+}
+
+.posttss a:hover {
+    color: deepskyblue;
+}
+
+.dave {
+    background-color: deepskyblue;
+    padding: 60px 30px;
+    margin: 30px;
+    width: 60%;
+    color: white;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.dave h3 {
+    margin-top: -120px;
+    margin-left: 160px;
+    text-align: left;
+}
+
+.dave p {
+    padding-top: 40px;
+    margin-left: 150px;
+    margin-top: -60px;
+    text-align: left;
+    width: 70%;
+}
+
+.comments {
+    padding: 30px;
+    color: #322f2f;
+    width: 80%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.diana {
+    display: flex;
+    margin: 20px;
+
+}
+
+.about-din {
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+.about-din h3 {
+
+    font-size: medium;
+    color: rgb(72, 71, 71);
+}
+
+.about-din a {
+    text-decoration: none;
+    font-size: small;
+    color: rgb(101, 98, 98);
+}
+
+.about-din a:hover {
+    color: darkorange;
+}
+
+.about-din p {
+    color: rgb(101, 98, 98);
+    width: 300px;
+}
+
+.dia-btn {
+    background-color: coral;
+    text-decoration: none;
+    padding: 5px 30px;
+    color: white;
+    font-size: medium;
+    margin-left: 480px;
+    margin-top: -150px;
+}
+
+.dia-btn:hover {
+    background-color: #322f2f;
+}
+
+form {
+    padding-left: 30px;
+    width: 65%;
+    color: #322f2f;
+}
+
+.on {
+    color: rgb(101, 98, 98);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.on input {
+    background-color: rgb(240, 243, 243);
+    padding: 10px 50px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.on label {
+    padding-bottom: 10px;
+}
+
+.name1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.name1 textarea {
+    background-color: rgb(240, 243, 243);
+    border: 1px solid white;
+    padding: 50px 100px;
+    margin-bottom: 20px;
+}
+
+.adde {
+    background-color: orangered;
+    border: 1px solid white;
+    padding: 10px 40px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.graid {
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    height: 20vh;
+     width: 50%; 
+     display: flex;
+     flex-wrap: wrap;
+     gap: 10px;
+     margin-bottom: 20px;
+}
+.tag{
+    padding-left: 30px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #322f2f ;
+}
+.gra a{
+    background-color: rgb(240, 243, 243);
+    color:rgb(101, 98, 98) ;
+    padding: 10px;
+     font-size: medium;
+    text-decoration: none;
+
+}
+.gra a:hover{
+    background-color: deepskyblue;
+}
+.first{
+    padding-left: 20px;
+    color: #3d3b3b;
+   display: flex;
+   justify-content: space-between;
+}
+.mes h3{
+    font-size: x-large;
+}
+.mes span{
+    color: #3d3b3b ;
+}
+.mes p{
+    font-size: larger;
+    color: #757272;
+}
+.mes p a{
+    text-decoration: none;
+    color: coral;
+}
+.nam{
+    display: flex;
+    flex-direction: column;
+    background: rgb(240, 243, 243);
+    padding-left: 10px;
+   padding-top: 10px;
+   margin-bottom: 20px;
+}
+.nam input{
+    background-color: rgb(240, 243, 243);
+    padding-top: 5px;
+    padding-bottom: 30px;
+    border: 1px solid white;
+     margin-bottom: 10px; 
+}
+.mesg{
+    display: flex;
+    flex-direction: column;
+    background: rgb(240, 243, 243);
+    padding-left: 10px;
+   padding-top: 10px;
+   margin-bottom: 20px; 
+}
+.mesg input{
+    background-color: rgb(240, 243, 243);
+    padding-top: 5px;
+    padding-bottom: 80px;
+    border: 1px solid white;
+     margin-bottom: 10px; 
+}
+.em {
+    display: flex;
+    flex-direction: column;
+}
+.loca p{
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.em a{
+    text-decoration: none;
+    color: #757272;
+    padding-bottom: 20px;
+}
+.em a:hover{
+    color: coral;
+}
+iframe{
+    width: 100%;
+    margin-top: 50px;
+}
+.free{
+    background-color: deepskyblue;
+    padding: 30px 50px;
+    color: white;
+    font-size: larger;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
